@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    IKAME ISTANACARWASH
+                    IKAME ISTANACARWASH 1
                 </div>
 
                 <div class="links">
