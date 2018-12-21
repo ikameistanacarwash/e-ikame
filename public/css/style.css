@@ -30,3 +30,11 @@ body {
   .hide-on-mobile{display: none;}
     
 }
+
+.bg-orange{
+	background: #ffbf01;
+}
+
+.nav-link {
+	color: #000;
+}
