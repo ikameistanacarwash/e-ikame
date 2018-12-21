@@ -2,3 +2,31 @@
 body {
 
 }
+
+/*Nopadding*/
+.nopadding {
+    padding-left: 0 !important;
+    margin-bottom: .5rem !important;
+
+}
+
+/*Nopadding2*/
+.nopadding2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: .5rem !important;
+}
+
+/*Nopadding2*/
+.nopadding3 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 0rem !important;
+}
+
+
+@media (max-width: 767.98px) {
+ 
+  .hide-on-mobile{display: none;}
+    
+}

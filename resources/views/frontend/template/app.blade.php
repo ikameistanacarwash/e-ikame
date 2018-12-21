@@ -55,13 +55,25 @@
       .sticky + .content {
         padding-top: 60px;
       }
+
+      .header__search__input {
+          background: #fff;
+          opacity: .9;
+          border: 0;
+          padding: 11px 15px;
+          padding-right: 40px;
+          color: #000;
+          width: 100%;
+      }
+
+      /* .header__search__submit{padding:0 10px;position:absolute;right:0;top:0;bottom:0; width: 10px;} */
     </style>
 
   </head>
 
 <body>
   <div class="header-top">
-    <div class="container">
+    <div class="container nopadding3">
       <div class="nav-scroller bg-white hide-on-mobile">
         <nav class="nav nav-underline">
           <a class="nav-link" href="#">Cara Belanja</a>
@@ -76,31 +88,39 @@
 
   <div id="navbar">
     
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar">
-      <div class="container">
-        <a class="navbar-brand" href="#">Container</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="bg-dark">
+  <div class="d-flex flex-column flex-md-row align-items-center px-md-4 bg-white border-bawah box-shadow" id="myHeader">
+  <div class="container mt-2 mb-2">
+    <div class="row">
+      
+          <div class="col-8 col-md-2">
+            <!--<img class="mt-2 mb-2" src="https://barokah.shope/assets/img/barokahshope.png" alt="" width="48" height="48">-->
+           
+            <img id="logoIkm" width="100%" class="my-0 mr-md-auto logo-mb" src="https://i1.wp.com/alatcucianmobiljakarta.com/wp-content/uploads/2018/07/logo_kecil_aplikasi.png" src-orig="https://i1.wp.com/alatcucianmobiljakarta.com/wp-content/uploads/2018/07/logo_kecil_aplikasi.png?fit=300%2C75&amp;ssl=1" scale="1">           
+          </div>
 
-        <div class="collapse navbar-collapse" id="navbarsExample07">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-          </form>
-        </div>
+          <div class="col-4 col-md-8 hide-on-mobile">
+            <form method="get" id="searchform" action="https://alatcucianmobiljakarta.com/?cat=37&amp;">
+              <div class="input-group mt-1 ">
+                <input type="search" style="background-color:#f3f3f3; border: 0px solid #ced4da;" class="form-control" placeholder="cari alat cuci mobil dan motor" value="" name="s" id="s">
+              </div>
+            </form>
+          </div>
+
+          <div class="col-4 col-md-2">
+            <nav class="navbar navbar-light flot-right" style="padding: .2rem .0rem; float: right;">
+                
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-4" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 20px; color: #343a40;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search mr-0 mt-2 pencarian collapsed" style="width: 20px; color: #343a40;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </nav>
+          </div>
+
       </div>
-    </nav>
+    </div>
+  </div>
+</div>
   </div>
 
   <div class="content">
