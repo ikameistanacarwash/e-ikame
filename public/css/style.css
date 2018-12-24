@@ -38,3 +38,70 @@ body {
 .nav-link {
 	color: #000;
 }
+
+/* Disable WhatsApp button on Desktop - Tutorial link: http://crunchify.me/1VIxAsz */
+@media screen and (min-width: 767px) {
+    .crunchify-whatsapp {
+        display: none !important;
+    }
+    
+    .pencarian{display: none;}
+    .hide-on-tab{display: none;}
+}
+
+.border-bottom {
+    border-bottom: 1px solid #fff!important;
+}
+
+/*CARD*/
+
+.card {
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0rem;
+}
+
+.garis-hov:hover{border: 1px solid rgba(0,0,0,0.56);}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: .7rem;
+    line-height: 1.2rem;
+    font-size: .9rem;
+    background-color: #fff;
+}
+
+.card-body h2,h3 {
+    font-size: 1.2rem;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-text{ font-size: 13px; margin: 0px; height: 60px;}
+.card-text-harga{margin: 0px; font-size: 14px; }
+.link-produk {text-decoration: none;}
+.img-produk:hover{}
+
+.card-footer {
+    padding: .2rem .5rem;
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+
+
+/**/
+
+/**/
+.cat__menu {
+    width: 230px;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+   	position: absolute;
+    font-size: 15px;
+    z-index: 99;
+}
