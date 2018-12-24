@@ -24,8 +24,7 @@
     <link rel="stylesheet" href="{{ asset('css/flickity.css')}}" media="screen">
 
     <!-- JavaScript -->
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="{{ asset('css/flickity.pkgd.min.js')}}"></script>
+    <script src="{{asset('js/flickity.pkgd.min.js')}}"></script>
 
     <style>
       #navbar {
@@ -142,9 +141,9 @@
         <div class="container nopadding2">
            
           <div class="col-md-12 nopadding2">
-             <div class="cat__menu">
-                          asdsd
-                  </div>
+              <div class="cat__menu hide-on-mobile">
+                asdsd
+              </div>
                <!-- Flickity HTML init -->
                <div class="carousel" data-flickity='{ "contain": true, "autoPlay": 5000}'>
                 
@@ -176,34 +175,73 @@
     </main>
   </div>
 
-  <div class="content">
-    <main role="main" class="container">
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
+<div class="content p-0">
+  <div class="container nopadding2">
+    <div class="grid-container grid-container--fit ml-1 mr-1">
+      
+      <div class="grid-item">
+        <a href="#">
+        <img alt="produk judul disini" src="https://alatcucianmobiljakarta.com/wp-content/uploads/2018/09/2_Hidrolik-Mobil-Ikame-St.jpg">
+         <br>
+          <div style=" height: 40px!important; border: 0px; padding: 0px;">
+            <div style="border: 0px; padding: 0px; line-height: 1; font-size: 11px; margin-top: 8px;">hidrolik Mobil Bagus</div>
+          </div>
+        </a>
       </div>
-    </main>
-  </div>
 
-  <div class="content">
-    <main role="main" class="container">
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
+      <div class="grid-item">
+        <a href="#">
+        <img alt="produk judul disini" src="https://alatcucianmobiljakarta.com/wp-content/uploads/2018/09/2_Hidrolik-Mobil-Ikame-St.jpg">
+         <br>
+          <div style=" height: 40px!important; border: 0px; padding: 0px;">
+            <div style="border: 0px; padding: 0px; line-height: 1; font-size: 11px; margin-top: 8px;">hidrolik Mobil Bagus</div>
+          </div>
+        </a>
       </div>
-    </main>
-  </div>
 
-  <div class="content">
-    <main role="main" class="container">
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
+      <div class="grid-item">
+        <a href="#">
+        <img alt="produk judul disini" src="https://alatcucianmobiljakarta.com/wp-content/uploads/2018/09/2_Hidrolik-Mobil-Ikame-St.jpg">
+         <br>
+          <div style=" height: 40px!important; border: 0px; padding: 0px;">
+            <div style="border: 0px; padding: 0px; line-height: 1; font-size: 11px; margin-top: 8px;">hidrolik Mobil Bagus</div>
+          </div>
+        </a>
       </div>
-    </main>
+
+      <div class="grid-item">
+        <a href="#">
+        <img alt="produk judul disini" src="https://alatcucianmobiljakarta.com/wp-content/uploads/2018/09/2_Hidrolik-Mobil-Ikame-St.jpg">
+         <br>
+          <div style=" height: 40px!important; border: 0px; padding: 0px;">
+            <div style="border: 0px; padding: 0px; line-height: 1; font-size: 11px; margin-top: 8px;">hidrolik Mobil Bagus</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="#">
+        <img alt="produk judul disini" src="https://alatcucianmobiljakarta.com/wp-content/uploads/2018/09/2_Hidrolik-Mobil-Ikame-St.jpg">
+         <br>
+          <div style=" height: 40px!important; border: 0px; padding: 0px;">
+            <div style="border: 0px; padding: 0px; line-height: 1; font-size: 11px; margin-top: 8px;">hidrolik Mobil Bagus</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="#">
+        <img alt="produk judul disini" src="https://alatcucianmobiljakarta.com/wp-content/uploads/2018/09/2_Hidrolik-Mobil-Ikame-St.jpg">
+         <br>
+          <div style=" height: 40px!important; border: 0px; padding: 0px;">
+            <div style="border: 0px; padding: 0px; line-height: 1; font-size: 11px; margin-top: 8px;">hidrolik Mobil Bagus</div>
+          </div>
+        </a>
+      </div>
+
+    </div>  
   </div>
-    
-  
+</div>  
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
